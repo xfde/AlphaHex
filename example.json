@@ -1,0 +1,33 @@
+{
+  "gpu": {
+    "use": true,
+    "id": 0
+  },
+  "params": {
+    "batch_size": 16,
+    "epochs": 1000
+  },
+  "net_params": {
+    "num_residual_blocks": 128,
+    "CNN": {
+      "in_channels": 1,
+      "out_channels": 128,
+      "kernel_size": 3
+    },
+    "ResNet": {
+      "in_planes": 128,
+      "planes": 128,
+      "strides": 1,
+      "kernel_size": 3
+    },
+    "OutBlock": {
+      "in_channes": 128,
+      "out_channels_value": 3,
+      "out_channels_policy": 32,
+      "fc_size": 32,
+      "kernel_size": 3,
+      "p_input_size": 1568,
+      "v_input_size": 147
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Sat 10 Dec 19:57:34 GMT 2022
+Starting experiment number: .
+Collecting torch==1.4.0
+  Using cached https://files.pythonhosted.org/packages/24/19/4804aea17cd136f1705a5e98a00618cb8f6ccc375ad8bfa437408e09d058/torch-1.4.0-cp36-cp36m-manylinux1_x86_64.whl
+Installing collected packages: torch
+Successfully installed torch-1.4.0
